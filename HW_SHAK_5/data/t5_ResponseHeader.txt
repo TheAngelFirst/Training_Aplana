@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Im: x-bm, gzip
+X-Content-Type-Options: nosniff
+X-Country: ru
+X-Frame-Options: SAMEORIGIN
+X-Seed-Signature: MEYCIQCj+duN4/KIO1Jp6EmCCxomqvj+ZQrZT4xk/CbK+w/0jQIhAKo63nXOHtBrq65WgHSXASWw6lSEqHiw5KkG69RISRzt
+X-Xss-Protection: 0
+Date: Thu, 12 Dec 2019 19:16:27 GMT
+Content-Length: 878
+Content-Type: application/x-gzip
+Alt-Svc: quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+

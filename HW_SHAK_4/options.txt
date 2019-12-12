@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\angel\Documents\GitHub\Training_Aplana\HW_SHAK_4
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\angel\documents\github\training_aplana\hw_shak_4\\logfile.log
+c:\users\angel\documents\github\training_aplana\hw_shak_4\\combined_HW_SHAK_4.c
+c:\users\angel\documents\github\training_aplana\hw_shak_4\\pre_cci.c

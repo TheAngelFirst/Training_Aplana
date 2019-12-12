@@ -1,0 +1,6 @@
+[hosts]
+localhost=
+clientservices.googleapis.com=
+www.gstatic.com=
+clients1.google.com=
+ssl.gstatic.com=

@@ -1,0 +1,15 @@
+[t4]
+FileName1=t4_bins.json
+URL1=https://www.gstatic.com/autofill/hourly/bins.json
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_4.xml
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t4_ResponseHeader.txt
+FileName2=t4f1.htm
+URL2=http://localhost:1080/cgi-bin/welcome.pl?signOff=true
+FrameIndex2=0.1
+UseFrameIndex=1
+[ProtocolInfo]
+ProtocolId=QTWeb

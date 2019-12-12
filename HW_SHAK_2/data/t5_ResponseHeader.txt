@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Content-Type: text/proto
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Date: Thu, 12 Dec 2019 08:46:32 GMT
+Server: AutoFill Server
+Content-Length: 39
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Cache-Control: private,max-age=604800
+Age: 42483
+Alt-Svc: quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+

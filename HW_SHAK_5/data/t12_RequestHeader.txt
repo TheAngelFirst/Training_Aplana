@@ -1,0 +1,11 @@
+POST /chrome-sync/experimentstatus HTTP/1.1
+Host: clients4.google.com
+Connection: keep-alive
+Content-Length: 13
+User-Agent: Chrome WIN 79.0.3945.79 (29f75ce3f42b007bd80361b0dfcfee3a13ff90b8-refs/branch-heads/3945@{#916}) channel(stable)
+Content-Type: application/octet-stream
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+

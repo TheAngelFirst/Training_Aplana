@@ -1,0 +1,32 @@
+[
+    {
+        "transactionName": "T11_Login_failed",
+        "rawStartTime": 1576182286534,
+        "rawEndTime": 1576182286808
+    },
+    {
+        "transactionName": "T11_Login",
+        "rawStartTime": 1576182286843,
+        "rawEndTime": 1576182287024
+    },
+    {
+        "transactionName": "T12_Search_Flights_Button",
+        "rawStartTime": 1576182287058,
+        "rawEndTime": 1576182287290
+    },
+    {
+        "transactionName": "T13_Find_Flight",
+        "rawStartTime": 1576182287325,
+        "rawEndTime": 1576182287457
+    },
+    {
+        "transactionName": "T19_Home_Button",
+        "rawStartTime": 1576182287490,
+        "rawEndTime": 1576182287648
+    },
+    {
+        "transactionName": "S3_Viewing_available_flights",
+        "rawStartTime": 1576182286201,
+        "rawEndTime": 1576182287683
+    }
+]

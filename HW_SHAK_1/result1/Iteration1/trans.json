@@ -1,0 +1,37 @@
+[
+    {
+        "transactionName": "T11_Login",
+        "rawStartTime": 1576181534938,
+        "rawEndTime": 1576181535236
+    },
+    {
+        "transactionName": "T12_Search_Flights_Button",
+        "rawStartTime": 1576181535272,
+        "rawEndTime": 1576181535532
+    },
+    {
+        "transactionName": "T13_Find_Flight",
+        "rawStartTime": 1576181535571,
+        "rawEndTime": 1576181535714
+    },
+    {
+        "transactionName": "T14_Choose_flight",
+        "rawStartTime": 1576181535747,
+        "rawEndTime": 1576181535907
+    },
+    {
+        "transactionName": "T15_Ticket_payment",
+        "rawStartTime": 1576181535940,
+        "rawEndTime": 1576181536068
+    },
+    {
+        "transactionName": "T16_Book_Another_Button",
+        "rawStartTime": 1576181536102,
+        "rawEndTime": 1576181536270
+    },
+    {
+        "transactionName": "S1_Buy_one_ticket",
+        "rawStartTime": 1576181534541,
+        "rawEndTime": 1576181536306
+    }
+]

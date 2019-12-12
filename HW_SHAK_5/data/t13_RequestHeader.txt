@@ -1,0 +1,9 @@
+GET /v4/threatListUpdates:fetch?$req=ChwKDGdvb2dsZWNocm9tZRIMNzkuMC4zOTQ1Ljc5GgwIBRABIgQgASACKAEaDAgBEAEiBCABIAIoARoMCAMQASIEIAEgAigBGgwIBxABIgQgASACKAEaDAgBEAEiBCABIAIoAxoMCAEQCCIEIAEgAigEGgwICRABIgQgASACKAYaDAgPEAEiBCABIAIoARoMCAoQCCIEIAEgAigBGgwICRABIgQgASACKAEaDAgIEAEiBCABIAIoARoMCA0QASIEIAEgAigBGgwIDhABIgQgASACKAEaDAgQEAEiBCABIAIoASICCAE=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw HTTP/1.1
+Host: safebrowsing.googleapis.com
+Connection: keep-alive
+X-HTTP-Method-Override: POST
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+

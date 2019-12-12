@@ -1,0 +1,77 @@
+Virtual User Script started at: 12.12.2019 23:23:04
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\angel\Documents\GitHub\Training_Aplana\HW_SHAK_3\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(3): Notify: Transaction "S3_Viewing_available_flights" started.
+Action.c(5): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(5): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(7): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(7): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(13): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+Action.c(13): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(13): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(13): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(13): web_url("welcome.pl") was successful, 4214 body bytes, 1180 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(23): Notify: Transaction "T11_Login_failed" started.
+Action.c(25): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(25): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(26): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(26): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?username=jojo&password=be" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(26): Detected non-resource "http://localhost:1080/cgi-bin/error.pl?error=badPassword" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(26): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(26): Registered web_reg_find successful for "Text=User password was incorrect" (count=1)  	[MsgId: MMSG-26364]
+Action.c(26): web_submit_data("login.pl") was successful, 2974 body bytes, 698 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(42): Notify: Transaction "T11_Login_failed" ended with a "Pass" status (Duration: 0,2469 Wasted Time: 0,0080).
+Action.c(44): Notify: Transaction "T11_Login" started.
+Action.c(46): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(47): web_submit_data("login.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(47): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(47): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(47): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(47): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(47): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(47): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(47): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+Action.c(47): web_submit_data("login.pl_2") was successful, 5779 body bytes, 2032 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(63): Notify: Transaction "T11_Login" ended with a "Pass" status (Duration: 0,1758 Wasted Time: 0,0089).
+Action.c(65): Notify: Transaction "T12_Search_Flights_Button" started.
+Action.c(67): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+Action.c(67): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action.c(67): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action.c(67): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action.c(67): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(67): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action.c(67): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(67): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+Action.c(67): web_url("Search Flights Button") was successful, 8516 body bytes, 1616 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(76): Notify: Transaction "T12_Search_Flights_Button" ended with a "Pass" status (Duration: 0,2609 Wasted Time: 0,0090).
+Action.c(78): Notify: Transaction "T13_Find_Flight" started.
+Action.c(80): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Action.c(80): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(80): web_submit_data("reservations.pl") was successful, 2432 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(103): Notify: Transaction "T13_Find_Flight" ended with a "Pass" status (Duration: 0,1439 Wasted Time: 0,0063).
+Action.c(105): Notify: Transaction "T19_Home_Button" started.
+Action.c(107): web_url("Home Button") started  	[MsgId: MMSG-26355]
+Action.c(107): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(107): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(107): Resource "http://localhost:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(107): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(107): Resource "http://localhost:1080/WebTours/images/in_home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(107): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(107): web_url("Home Button") was successful, 2996 body bytes, 698 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(116): Notify: Transaction "T19_Home_Button" ended with a "Pass" status (Duration: 0,1934 Wasted Time: 0,0070).
+Action.c(118): Notify: Transaction "S3_Viewing_available_flights" ended with a "Pass" status (Duration: 1,6053 Wasted Time: 0,1741).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

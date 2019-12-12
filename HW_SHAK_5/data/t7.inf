@@ -1,0 +1,10 @@
+[t7]
+FileName1=t4_bins.json
+URL1=https://www.gstatic.com/autofill/hourly/bins.json
+Total=1
+SnapshotXmlFile=snapshot_7.xml
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,17 @@
+[t3]
+FileName1=t3.json
+URL1=https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+Total=3
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=t3_RequestBody.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_3.xml
+FileName2=t3f0.htm
+URL2=http://localhost:1080/WebTours/header.html
+FrameIndex2=0.0
+UseFrameIndex=1
+FileName3=t3_hp_logo.png
+URL3=http://localhost:1080/WebTours/images/hp_logo.png
+[ProtocolInfo]
+ProtocolId=QTWeb
