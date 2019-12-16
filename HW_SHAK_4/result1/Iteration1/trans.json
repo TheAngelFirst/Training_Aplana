@@ -1,27 +1,27 @@
 [
     {
         "transactionName": "T11_Login",
-        "rawStartTime": 1576180567576,
-        "rawEndTime": 1576180567769
+        "rawStartTime": 1576314773354,
+        "rawEndTime": 1576314773527
     },
     {
         "transactionName": "T17_Itinerary_Button",
-        "rawStartTime": 1576180567803,
-        "rawEndTime": 1576180568049
+        "rawStartTime": 1576314773567,
+        "rawEndTime": 1576314777119
     },
     {
         "transactionName": "T18_Delete_All_Flights",
-        "rawStartTime": 1576180568107,
-        "rawEndTime": 1576180568233
+        "rawStartTime": 1576314777160,
+        "rawEndTime": 1576314787695
     },
     {
         "transactionName": "T20_Logout",
-        "rawStartTime": 1576180568267,
-        "rawEndTime": 1576180568425
+        "rawStartTime": 1576314787739,
+        "rawEndTime": 1576314789260
     },
     {
         "transactionName": "S4_Cancellation_of_all_tickets",
-        "rawStartTime": 1576180566737,
-        "rawEndTime": 1576180568469
+        "rawStartTime": 1576314772824,
+        "rawEndTime": 1576314789298
     }
 ]

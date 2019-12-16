@@ -13,12 +13,15 @@
     <FileEntry Name="default.usp" Filter="4" />
     <FileEntry Name="HW_SHAK_4.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="password.dat" Filter="2" />
     <FileEntry Name="seatType.dat" Filter="2" />
     <FileEntry Name="seatPref.dat" Filter="2" />
     <FileEntry Name="username.dat" Filter="2" />
     <FileEntry Name="combined_HW_SHAK_4.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="23102813440.idx" Filter="1" />
+    <FileEntry Name="241982655440.idx" Filter="1" />
+    <FileEntry Name="3512941440.idx" Filter="1" />
     <FileEntry Name="69256892440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
@@ -30,6 +33,9 @@
     <FileEntry Name="HW_SHAK_4.sdf" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvKh4.29.log" Filter="1" />
+    <FileEntry Name="mdrvmq1.269.log" Filter="1" />
+    <FileEntry Name="mdrvZ8C.165.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="NewParam.dat" Filter="1" />
     <FileEntry Name="NewParam_1.dat" Filter="1" />
@@ -37,7 +43,6 @@
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />
-    <FileEntry Name="password.dat" Filter="1" />
     <FileEntry Name="replay.har" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />

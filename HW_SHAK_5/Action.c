@@ -20,8 +20,8 @@ Action()
 		"Mode=HTML", 
 		LAST);
 	
-	lr_start_transaction("T11_Login");
 	lr_think_time(5);
+	lr_start_transaction("T11_Login");
 	web_reg_find("Text=User password was correct", LAST);
 	web_submit_data("login.pl", 
 		"Action=http://localhost:1080/cgi-bin/login.pl", 
@@ -41,8 +41,8 @@ Action()
 		LAST);
 	lr_end_transaction("T11_Login",LR_AUTO);
 
-	lr_start_transaction("T12_Search_Flights_Button");
 	lr_think_time(5);
+	lr_start_transaction("T12_Search_Flights_Button");
 	web_url("welcome.pl", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
 		"TargetFrame=", 
@@ -54,8 +54,8 @@ Action()
 		LAST);
 	lr_end_transaction("T12_Search_Flights_Button",LR_AUTO);
 
-	lr_start_transaction("T13_Find_Flight");
 	lr_think_time(5);
+	lr_start_transaction("T13_Find_Flight");
 	web_submit_data("reservations.pl", 
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
 		"Method=POST", 
@@ -82,8 +82,8 @@ Action()
 		LAST);
 	lr_end_transaction("T13_Find_Flight",LR_AUTO);
 
-	lr_start_transaction("T14_Choose_flight");
 	lr_think_time(5);
+	lr_start_transaction("T14_Choose_flight");
 	web_submit_data("reservations.pl_2", 
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
 		"Method=POST", 
@@ -104,8 +104,8 @@ Action()
 		LAST);
 	lr_end_transaction("T14_Choose_flight",LR_AUTO);
 
-	lr_start_transaction("T15_Ticket_payment");
 	lr_think_time(5);
+	lr_start_transaction("T15_Ticket_payment");
 	web_submit_data("reservations.pl_3", 
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
 		"Method=POST", 
@@ -137,8 +137,8 @@ Action()
 		LAST);
 	lr_end_transaction("T15_Ticket_payment",LR_AUTO);
 
-	lr_start_transaction("T17_Itinerary_Button");
 	lr_think_time(5);
+	lr_start_transaction("T17_Itinerary_Button");
 	web_url("Itinerary Button", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
 		"TargetFrame=body", 
@@ -150,8 +150,8 @@ Action()
 		LAST);
 	lr_end_transaction("T17_Itinerary_Button",LR_AUTO);
 
-	lr_start_transaction("T20_Logout");
 	lr_think_time(5);
+	lr_start_transaction("T20_Logout");
 	web_url("SignOff Button", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
 		"TargetFrame=body", 

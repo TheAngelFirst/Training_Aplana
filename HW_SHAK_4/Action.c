@@ -20,8 +20,8 @@ Action()
 		"Mode=HTML", 
 		LAST);
 	/* LOGIN */
-	lr_start_transaction("T11_Login");
 	lr_think_time(5);
+	lr_start_transaction("T11_Login");
 	web_reg_find("Text=User password was correct", LAST);
 	web_submit_data("login.pl",
 		"Action=http://localhost:1080/cgi-bin/login.pl",
@@ -41,8 +41,8 @@ Action()
 		LAST);
 	lr_end_transaction("T11_Login", LR_AUTO);
 	
-	lr_start_transaction("T17_Itinerary_Button");
 	lr_think_time(5);
+	lr_start_transaction("T17_Itinerary_Button");
 	web_url("Itinerary Button", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
 		"TargetFrame=body", 
@@ -54,8 +54,8 @@ Action()
 		LAST);
 	lr_end_transaction("T17_Itinerary_Button",LR_AUTO);
 
-	lr_start_transaction("T18_Delete_All_Flights");
 	lr_think_time(5);
+	lr_start_transaction("T18_Delete_All_Flights");
 	web_submit_data("itinerary.pl", 
 		"Action=http://localhost:1080/cgi-bin/itinerary.pl", 
 		"Method=POST", 
@@ -82,8 +82,8 @@ Action()
 		LAST);
 	lr_end_transaction("T18_Delete_All_Flights",LR_AUTO);
 
-	lr_start_transaction("T20_Logout");
 	lr_think_time(5);
+	lr_start_transaction("T20_Logout");
 	web_url("SignOff Button", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
 		"TargetFrame=body", 

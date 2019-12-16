@@ -34,6 +34,9 @@
     <FileEntry Name="HW_SHAK_3.sdf" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvED9.355.log" Filter="1" />
+    <FileEntry Name="mdrvsjP.535.log" Filter="1" />
+    <FileEntry Name="mdrvTEj.159.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />

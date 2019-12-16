@@ -20,8 +20,8 @@ Action()
 		"Mode=HTML", 
 		LAST);
 	/* LOGIN */
-	lr_start_transaction("T11_Login");
 	lr_think_time(5);
+	lr_start_transaction("T11_Login");
 	web_reg_find("Text=User password was correct", LAST);
 	web_submit_data("login.pl",
 		"Action=http://localhost:1080/cgi-bin/login.pl",
@@ -41,9 +41,9 @@ Action()
 		LAST);
 	lr_end_transaction("T11_Login", LR_AUTO);
 	/* LOGIN\ */
+	lr_think_time(5);
 	/* FLIGHTS */
 	lr_start_transaction("T12_Search_Flights_Button");
-	lr_think_time(5);
 	web_url("Search Flights Button", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
 		"TargetFrame=body", 
@@ -56,8 +56,8 @@ Action()
 	lr_end_transaction("T12_Search_Flights_Button", LR_AUTO);
 	/* FLIGHTS\
 	   FIND FLIGHTS */
-	lr_start_transaction("T13_Find_Flight");
 	lr_think_time(5);
+	lr_start_transaction("T13_Find_Flight");
 	web_submit_data("reservations.pl", 
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
 		"Method=POST", 
@@ -83,8 +83,8 @@ Action()
 		LAST);
 	lr_end_transaction("T13_Find_Flight", LR_AUTO);
 	
-	lr_start_transaction("T14_Choose_flight");
 	lr_think_time(5);
+	lr_start_transaction("T14_Choose_flight");
 	web_submit_data("reservations.pl_2", 
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
 		"Method=POST", 
@@ -104,9 +104,9 @@ Action()
 		LAST);
 	lr_end_transaction("T14_Choose_flight", LR_AUTO);
 	/* 2 FIND FLIGHTS\ */
+	lr_think_time(5);
 	/* PAYMENT DETAILS */
 	lr_start_transaction("T15_Ticket_payment");
-	lr_think_time(5);
 	web_submit_data("reservations.pl_3", 
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
 		"Method=POST", 
@@ -138,8 +138,8 @@ Action()
 	lr_end_transaction("T15_Ticket_payment", LR_AUTO);
 	/* PAYMENT DETAILS\
 	   INVOICE */
-	lr_start_transaction("T16_Book_Another_Button");
 	lr_think_time(5);
+	lr_start_transaction("T16_Book_Another_Button");
 	web_submit_data("reservations.pl_4", 
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
 		"Method=POST", 

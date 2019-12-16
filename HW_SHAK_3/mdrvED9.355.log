@@ -1,0 +1,12 @@
+Start auto log messages stack - Iteration 21.	[MsgId: MMSG-10545]
+Action.c(47): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+Action.c(47): web_submit_data("login.pl_2") was successful, 5779 body bytes, 2032 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(63): Notify: Transaction "T11_Login" ended with a "Pass" status (Duration: 0,1183 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+Action.c(65): Notify: Transaction "T12_Search_Flights_Button" started.	[MsgId: MMSG-16999]
+Action.c(67): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+Action.c(67): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action.c(67): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action.c(67): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

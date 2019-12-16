@@ -20,8 +20,8 @@ Action()
 		"Mode=HTML", 
 		LAST);
 	
-	lr_start_transaction("T11_Login_failed");
 	lr_think_time(5);
+	lr_start_transaction("T11_Login_failed");
 	web_reg_find("Text=User password was incorrect", LAST);
 	web_submit_data("login.pl",
 		"Action=http://localhost:1080/cgi-bin/login.pl",
@@ -41,8 +41,8 @@ Action()
 		LAST);
 	lr_end_transaction("T11_Login_failed", LR_AUTO);
 
-	lr_start_transaction("T11_Login");
 	lr_think_time(5);
+	lr_start_transaction("T11_Login");
 	web_reg_find("Text=User password was correct", LAST);
 	web_submit_data("login.pl_2",
 		"Action=http://localhost:1080/cgi-bin/login.pl",
@@ -62,8 +62,8 @@ Action()
 		LAST);
 	lr_end_transaction("T11_Login", LR_AUTO);
 
-	lr_start_transaction("T12_Search_Flights_Button");
 	lr_think_time(5);
+	lr_start_transaction("T12_Search_Flights_Button");
 	web_url("Search Flights Button", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
 		"TargetFrame=body", 
@@ -75,8 +75,8 @@ Action()
 		LAST);
 	lr_end_transaction("T12_Search_Flights_Button", LR_AUTO);
 
-	lr_start_transaction("T13_Find_Flight");
 	lr_think_time(5);
+	lr_start_transaction("T13_Find_Flight");
 	web_submit_data("reservations.pl", 
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
 		"Method=POST", 
@@ -102,8 +102,8 @@ Action()
 		LAST);
 	lr_end_transaction("T13_Find_Flight", LR_AUTO);
 
-	lr_start_transaction("T19_Home_Button");
 	lr_think_time(5);
+	lr_start_transaction("T19_Home_Button");
 	web_url("Home Button", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 
 		"TargetFrame=body", 

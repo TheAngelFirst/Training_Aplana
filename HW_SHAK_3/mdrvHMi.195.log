@@ -1,0 +1,26 @@
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action.c(79): Notify: Transaction "T13_Find_Flight" started.	[MsgId: MMSG-16999]
+Action.c(80): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Action.c(80): web_submit_data("reservations.pl") was successful, 717 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(103): Notify: Transaction "T13_Find_Flight" ended with a "Pass" status (Duration: 0,0665).	[MsgId: MMSG-16873]
+Action.c(106): Notify: Transaction "T19_Home_Button" started.	[MsgId: MMSG-16999]
+Action.c(107): web_url("Home Button") started  	[MsgId: MMSG-26355]
+Action.c(107): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(107): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(107): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 187.	[MsgId: MMSG-10545]
+Action.c(79): Notify: Transaction "T13_Find_Flight" started.	[MsgId: MMSG-16999]
+Action.c(80): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Action.c(80): web_submit_data("reservations.pl") was successful, 717 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(103): Notify: Transaction "T13_Find_Flight" ended with a "Pass" status (Duration: 0,0660).	[MsgId: MMSG-16873]
+Action.c(106): Notify: Transaction "T19_Home_Button" started.	[MsgId: MMSG-16999]
+Action.c(107): web_url("Home Button") started  	[MsgId: MMSG-26355]
+Action.c(107): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(107): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(107): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
